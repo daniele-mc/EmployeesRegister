@@ -7,10 +7,8 @@ public class Funcionario {
     double salario = 0.0;
     double bonifacao;
     String funcao;
-    //ArrayList<Funcionario> listafunc;
 
     public Funcionario(){
-        //listafunc = new ArrayList<Funcionario>();
     }
 
     public double calculaBonifacacao(){
