@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Scanner;
-
-public class Funcionario {
+abstract class Funcionario {
     String nome;
     String cpf;
     double salario = 0.0;
