@@ -29,7 +29,6 @@ public class DAOFuncionario{
         ControleBonificacao controle = new ControleBonificacao();
 
         for (Funcionario x: listafunc){
-            System.out.println("teste");
             System.out.println("Nome: " + x.getNome() + " - " + x.getFuncao());
             System.out.println("CPF: " + x.getCpf());
             System.out.println("Salario: " + x.getSalario());
